@@ -7,14 +7,14 @@
   <style>
       body { 
         font-family: Arial, sans-serif;
-        background-color:#f0f2f5;
+        background-color:#add8e6;
         margin: 0;
         padding: 0;
       }
 
   header {
-    background-color: #1f4e79;
-    color: white;
+    background-color: #000080;
+    color: navyblue;
     text-aling: center;
   }
 
@@ -36,7 +36,7 @@
     }
 
     a {
-      color: #1f4e79;
+      color: #000080;
       text-decoration: none;
       font-weigth: bold;
     }
@@ -55,11 +55,11 @@
     }
 
     buttoon:hover {
-      background-color: #163a5c;
+      background-color: #add8e6;
     }
 
     footer {
-      backgroud-color: #1f4e79;
+      backgroud-color: #FFFFFF;
       color: white;
       text-aling: center;
       padding: 10px;
@@ -71,7 +71,7 @@
 <body>
 
   <header>
-    <h1>Lboratório Web</h1>h1>
+    <h1>Lboratório Web</h1>
     <p>Exemplo de página com HTML e CSS</p>
   </header>
 
@@ -121,7 +121,7 @@
   <script>
     function mostrarMensagem() {
       document.getElementById ("mensagem").innerHTML=
-        "Parabéns! Você executou um comando usando JavaScript.";
+        "Divou bebê! Você executou um comando usando JavaScript.";
     }
   </script>
 
